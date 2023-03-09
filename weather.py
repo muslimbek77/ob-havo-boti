@@ -1,6 +1,7 @@
 from config import API_KEY
 import requests
 def get_date(city):
+        """Bu weather funksiyasi"""
         data = {
             "q": city,
             "appid": API_KEY
